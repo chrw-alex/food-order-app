@@ -1,0 +1,7 @@
+.amount {
+  padding: 4px 24px;
+  border-radius: 20px;
+  background-color: var(--color3);
+  color: #fff;
+  font-size: 20px;
+}

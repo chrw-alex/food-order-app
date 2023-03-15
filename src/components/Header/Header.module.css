@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--color1);
+  z-index: 1000;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.mainImg {
+  margin: 0 auto;
+  width: 1400px;
+  height: 400px;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.mainImg img {
+  width: 120%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotateZ(-7deg) translateY(-20px) translateX(50px);
+}
