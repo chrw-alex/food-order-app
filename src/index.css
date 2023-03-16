@@ -14,6 +14,10 @@ code {
 
 * {
   box-sizing: border-box;
+  --color1: #660266;
+  --color2: #490249;
+  --color3: #aa02aa;
+  --color4: #250125;
 }
 
 p,

@@ -1,4 +1,6 @@
 .input {
+  width: fit-content;
+  margin-left: auto;
   display: flex;
   align-items: center;
   margin-bottom: 20px;

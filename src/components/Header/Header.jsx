@@ -2,7 +2,7 @@ import HeaderCart from './HeaderCart/HeaderCart'
 import sushi from '../../assets/img/sushi.jpg'
 import style from './Header.module.css'
 
-const Header = () => {
+const Header = ({ setCartIsVisible }) => {
   return (
     <>
       <header className={style.header}>
@@ -10,7 +10,7 @@ const Header = () => {
           <div>
             <p className={style.logo}>Япона Кухня</p>
           </div>
-          <HeaderCart />
+          <HeaderCart setCartIsVisible={setCartIsVisible} />
         </div>
       </header>
       <div className={style.mainImg}>

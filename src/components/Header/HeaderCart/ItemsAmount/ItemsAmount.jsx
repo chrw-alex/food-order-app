@@ -1,8 +1,8 @@
 import style from './ItemsAmount.module.css'
 
-const ItemsAmount = () => {
+const ItemsAmount = ({ cartItemsNumber }) => {
   return (
-    <div className={style.amount}>0</div>
+    <div className={style.amount}>{cartItemsNumber}</div>
   )
 }
 
