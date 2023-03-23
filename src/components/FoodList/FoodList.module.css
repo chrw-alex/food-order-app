@@ -11,6 +11,13 @@
   padding: 0;
 }
 
+.loading {
+  width: fit-content;
+  margin: 40px auto;
+  font-size: 28px;
+  color: var(--color2)
+}
+
 @keyframes food-appear {
   from {
     opacity: 0;
